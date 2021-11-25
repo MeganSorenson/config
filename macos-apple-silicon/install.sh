@@ -2,7 +2,8 @@
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/megansorenson/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-brew install Caskroom/cask/xquartz
+# install dependencies for pip
+brew install sdl2 sdl2_image sdl2_mixer sdl2_ttf pkg-config
 brew install Caskroom/cask/xquartz
 
 
